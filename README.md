@@ -1,4 +1,4 @@
-# README: RAG (Retrieval-Augmented Generation) Model
+# RAG (Retrieval-Augmented Generation) Model
 
 ## Overview
 This project implements a Retrieval-Augmented Generation (RAG) pipeline using Hugging Face's Transformers library. The model is designed to answer user queries by retrieving relevant context from a knowledge base and generating context-aware responses. It is particularly suited for question-answering tasks where the context is essential for accurate results.
@@ -111,11 +111,6 @@ print(result["answer"])
    ```bash
    pip install --upgrade transformers torch
    ```
-
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
